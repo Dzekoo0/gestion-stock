@@ -43,4 +43,8 @@ class Produit
         }
         $this->quantite -= $n;
     }
+        public function valeurStock(): float
+    {
+        return $this->prix * $this->quantite;
+    }
 }
