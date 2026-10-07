@@ -42,10 +42,10 @@ class Stock {
     /**
      * Calcule la somme de la valeur de tous les produits en stock.
      */
-    public function valeurTotale(): float {
+public function valeurTotale(): float {
         $total = 0.0;
         foreach ($this->produits as $p) {
-            $total += $p->valeurStock();
+            $total += $p->getPrix(); // BUG : additionne le prix unitaire au lieu de la valeur du stock
         }
         return $total;
     }
