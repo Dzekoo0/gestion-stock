@@ -25,7 +25,6 @@ try {
 }
 verifier($doublonDetecte, "ajouter() refuse une référence déjà existante");
 
-// 4. Recherche par référence
 verifier($stock->trouver('P001') === $p1, "trouver('P001') renvoie bien l'instance du produit");
 verifier($stock->trouver('INCONNU') === null, "trouver() renvoie null pour un produit inexistant");
 
