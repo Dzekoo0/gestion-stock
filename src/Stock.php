@@ -62,7 +62,6 @@ class Stock {
     }
 
     /**
-     * Retourne les produits dont la quantité est strictement inférieure au seuil donné.
      * @return Produit[]
      */
     public function produitsSousSeuil(int $seuil): array {
