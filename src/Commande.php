@@ -54,5 +54,6 @@ class Commande {
         $s .= sprintf("TOTAL : %.2f\n", $this->total());
         $s .= $this->validee ? "Statut : validée\n" : "Statut : en attente\n";
         return $s;
+        
     }
 }
