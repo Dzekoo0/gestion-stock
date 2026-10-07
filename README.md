@@ -9,5 +9,6 @@ Application PHP en ligne de commande qui gère le stock d'un magasin.
 - Commande (C) : ajouterLigne(), total(), valider(), estValidee(), afficher()
 
 ## Équipe
-TARZI ILYAS : classe Stock (B)
--RAMDANI ILYAS MOHAMED : classe Commande (c)
+- Massail Zakaria : classe Produit (A)
+- TARZI ILYAS : classe Stock (B)
+- RAMDANI ILYAS MOHAMED : classe Commande (C)
