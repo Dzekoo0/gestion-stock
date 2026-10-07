@@ -55,5 +55,6 @@ class Commande {
         $s .= $this->validee ? "Statut : validée\n" : "Statut : en attente\n";
         return $s;
         
+
     }
 }
