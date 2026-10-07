@@ -11,3 +11,4 @@ Application PHP en ligne de commande qui gère le stock d'un magasin.
 ## Équipe
 - Massail Zakaria : classe Produit (A)
 - TARZI ILYAS : classe Stock (B)
+- RAMDANI ILYAS MOHAMED : classe Commande (C)
